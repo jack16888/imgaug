@@ -34,6 +34,9 @@ https://github.com/cyndi088/DataAugmentation/blob/master/augmentation.py
 4, color_brightness,py 这个文件操作后，会把亮度，对比度，sharpness 这些做增强，同时把对应的标签文件和jpg文件进行
 相应的保存，但是这个时候save的jpg文件和xml里的xml文件只是名字匹配上了，xml内部的文件名还需要修改
 这时候，采用  changexmljpgname.py 这个文件，通过xml文件名，修改内部的name。
+color_brightness,py changexmljpgname.py changefilename.py 这三个文件按顺序使用。
+
+5 , jpgdata_aug.py 这个文件，只要执行了，就可以直接生成旋转，亮度之类的图像增强，对应的图片和xml文件都是匹配好了的。
 
 
 
