@@ -20,7 +20,7 @@ for img in imglist:
 # img_save_name='mhq_171215_'+str(k)+"_"+zzname[2]
 # xml_save_name=img_save_name.replace(".jpg",".xml")
  
- img_save_name='mhq_181105_'+str(k)+".jpg"
+ img_save_name='888_'+str(k)+".jpg"
  xml_save_name=img_save_name.replace(".jpg",".xml")
  
  img_savepath=img_savedir+img_save_name 
