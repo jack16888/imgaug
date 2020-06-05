@@ -24,7 +24,7 @@
 
 
   
-4, color_brightness,py 这个文件操作后，会把亮度，对比度，sharpness 这些做增强，同时把对应的标签文件和jpg文件进行
+3, color_brightness,py 这个文件操作后，会把亮度，对比度，sharpness 这些做增强，同时把对应的标签文件和jpg文件进行
 
 相应的保存，但是这个时候save的jpg文件和xml里的xml文件只是名字匹配上了，xml内部的文件名还需要修改
 
@@ -38,7 +38,9 @@ color_brightness,py changexmljpgname.py changefilename.py 这三个文件按顺�
 
   ,应该可以满足各种增强需求。SSD的不用考虑其他方法了。https://blog.csdn.net/u010451780/article/details/106249758
 
-3, 参考：
+7 , add download_picture.py, python3 download_picture.py , 该脚本可以下载百度image里面的指定关键字的图片。用于模型素材收集。
+
+8, 参考：
 https://github.com/aleju/imgaug
 
 pip3 install git+https://github.com/aleju/imgaug
